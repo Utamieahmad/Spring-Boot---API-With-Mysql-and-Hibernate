@@ -1,4 +1,4 @@
-## Requirements
+## 1. Requirements
 
 1. Java - 1.8.x
 
@@ -6,17 +6,17 @@
 
 3. Mysql - 5.x.x
 
-**Create Mysql database**
+**2. Create Mysql database**
 
 create database notes_app
 
-**Change mysql username and password as per your installation**
+**3. Change mysql username and password as per your installation**
 
 + open `src/main/resources/application.properties`
 
 + change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
 
-**Build and run the app using maven**
+**4. Build and run the app using maven**
 
 mvn package
 java -jar target/easy-notes-1.0.0.jar
@@ -26,7 +26,7 @@ mvn spring-boot:run
 
 The app will start running at <http://localhost:8080>.
 
-## Explore Rest APIs
+## 5. Explore Rest APIs
 
 The app defines following CRUD APIs.
 
